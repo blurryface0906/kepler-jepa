@@ -1,0 +1,27 @@
+[
+  {
+    "seed": 42,
+    "weights_sha256": "052c6fce9ac365207aa959d015cf8b8ebbee9ecf6d4271cd637a4fb89af04e45",
+    "file_sha256": "6130541f1617f40baa277dbceb9811cd82a8bf71f85ab6a97fa359c7d6fe80c3"
+  },
+  {
+    "seed": 43,
+    "weights_sha256": "65fb35ffe46610f29b191ff96c8a1464b760ee20625f927f5064e2a4d986756f",
+    "file_sha256": "1a4b585122ab7fc33f2d772a48c962bc18f90da9eb208cca3b2af6f16a940815"
+  },
+  {
+    "seed": 44,
+    "weights_sha256": "daca6c72878ef4052b30842ec9190aefe87142c4f1f8dba06e2ad274e6e4ed99",
+    "file_sha256": "7e7e75956079433824bbb09cffd37ac2adc52342321e4835bbda835028f5e227"
+  },
+  {
+    "seed": 45,
+    "weights_sha256": "f7edf7a037716ded2fff06fcd6645359a17c7f75e09b27bf7e5672bea76147e5",
+    "file_sha256": "80e208662d936424823d3e3397dfbb3b7479038df3d440229f2afda806dc5330"
+  },
+  {
+    "seed": 46,
+    "weights_sha256": "e3266997831102c4328e91d9f0e293449b93c6a90e87a2b693fa58c43c3c8f1c",
+    "file_sha256": "c74da32ad8f39bb90f82306c65a591a0168fed5eedb5bf1ce5a6231d19f826fc"
+  }
+]

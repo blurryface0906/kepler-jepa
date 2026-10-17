@@ -1,0 +1,229 @@
+{
+  "transfer_and_completeness_passed": true,
+  "audit_scope": "Artifact integrity, execution completeness and honest criterion accounting; scientific success is not required.",
+  "artifact_hashes_verified": 28,
+  "source_hashes_verified": 10,
+  "checkpoints_verified_at_step_2000": 15,
+  "checkpoint_loading": "weights_only=True, map_location=cpu",
+  "gpu_unit_tests_passed": 147,
+  "raw_test_samples": 2100,
+  "frequency_records": 2000,
+  "factor_frequency_records": 400,
+  "per_orbit_frequency_estimates": 65000,
+  "per_orbit_factor_estimates": 13000,
+  "oos_scale_records": 200,
+  "probe_training_records": 50,
+  "frozen_control_checks": 10,
+  "scale_records": 200,
+  "predictor_diagnostic_records": 100,
+  "figure_pixels": [
+    6600,
+    1860
+  ],
+  "figure_dpi": [
+    299.9994,
+    299.9994
+  ],
+  "previous_report_hashes_verified": 79,
+  "task3_1_original_source_hashes_verified": 10,
+  "scientific_outcomes_independently_recomputed": true,
+  "scientific_acceptance_passed": false,
+  "scientific_criteria_passed": 17,
+  "scientific_criteria_total": 18,
+  "failed_scientific_criteria": [
+    "ID T4 M2: slope error<.05 and R2>.99 (S3b_diff, 64 AND 512, full64)"
+  ],
+  "oos_refit_conditioning_diagnostics": [
+    {
+      "seed": 43,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_id_sub",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 907764802284.9446,
+      "independent_refit_prediction_max_difference": 0.0027313232421875,
+      "condition_aware_roundoff_bound": 0.01290011372084542,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 43,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 907764802284.9446,
+      "independent_refit_prediction_max_difference": 0.0019683837890625,
+      "condition_aware_roundoff_bound": 0.029268353412875765,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 43,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood_inner",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 907764802284.9446,
+      "independent_refit_prediction_max_difference": 0.0019683837890625,
+      "condition_aware_roundoff_bound": 0.01290011372084542,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 43,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood_outer",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 907764802284.9446,
+      "independent_refit_prediction_max_difference": 0.0015716552734375,
+      "condition_aware_roundoff_bound": 0.029268353412875765,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 44,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_id_sub",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 64788988579086.31,
+      "independent_refit_prediction_max_difference": 1.4210854715202004e-14,
+      "condition_aware_roundoff_bound": 0.9207069038422775,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 44,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 64788988579086.31,
+      "independent_refit_prediction_max_difference": 1.4210854715202004e-14,
+      "condition_aware_roundoff_bound": 1.7720797680282347,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 44,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood_inner",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 64788988579086.31,
+      "independent_refit_prediction_max_difference": 1.4210854715202004e-14,
+      "condition_aware_roundoff_bound": 0.9207069038422775,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 44,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood_outer",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 64788988579086.31,
+      "independent_refit_prediction_max_difference": 0.0,
+      "condition_aware_roundoff_bound": 1.7720797680282347,
+      "severely_ill_conditioned": true,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 46,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_id_sub",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 814982.9783199591,
+      "independent_refit_prediction_max_difference": 6.402842700481415e-09,
+      "condition_aware_roundoff_bound": 1.1581604700267564e-08,
+      "severely_ill_conditioned": false,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 46,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 814982.9783199591,
+      "independent_refit_prediction_max_difference": 6.9267116487026215e-09,
+      "condition_aware_roundoff_bound": 2.2102133500823276e-08,
+      "severely_ill_conditioned": false,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 46,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood_inner",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 814982.9783199591,
+      "independent_refit_prediction_max_difference": 6.9267116487026215e-09,
+      "condition_aware_roundoff_bound": 1.1581604700267564e-08,
+      "severely_ill_conditioned": false,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    },
+    {
+      "seed": 46,
+      "model": "M0",
+      "regime": "T3",
+      "split": "test_ood_outer",
+      "probe": "axis_probe",
+      "standardized_train_design_condition": 814982.9783199591,
+      "independent_refit_prediction_max_difference": 5.0640664994716644e-09,
+      "condition_aware_roundoff_bound": 2.2102133500823276e-08,
+      "severely_ill_conditioned": false,
+      "interpretation": "Condition and refit sensitivity recorded; original scores retained. Large coefficients with cancellation limit physical interpretation."
+    }
+  ],
+  "m3_parameter_comparison_to_task31": {
+    "42": {
+      "all_tensors_identical": true,
+      "max_absolute_parameter_difference": 0.0
+    },
+    "43": {
+      "all_tensors_identical": true,
+      "max_absolute_parameter_difference": 0.0
+    },
+    "44": {
+      "all_tensors_identical": true,
+      "max_absolute_parameter_difference": 0.0
+    },
+    "45": {
+      "all_tensors_identical": true,
+      "max_absolute_parameter_difference": 0.0
+    },
+    "46": {
+      "all_tensors_identical": true,
+      "max_absolute_parameter_difference": 0.0
+    }
+  },
+  "environment": {
+    "cuda_available": true,
+    "torch": "2.1.1+cu118",
+    "cuda_runtime": "11.8",
+    "python": "3.10.13",
+    "platform": "Linux-5.15.0-186-generic-x86_64-with-glibc2.35",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA A100-SXM4-80GB MIG 3g.40gb",
+        "total_memory_bytes": 42144366592,
+        "capability": [
+          8,
+          0
+        ]
+      }
+    ],
+    "checked_at_utc": "2026-10-15T13:34:07.485169+00:00",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.1",
+    "tabulate": "0.9.0",
+    "threadpoolctl": "3.6.0"
+  }
+}

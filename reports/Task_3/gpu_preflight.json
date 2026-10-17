@@ -1,0 +1,19 @@
+{
+  "cuda_available": true,
+  "torch": "2.1.1+cu118",
+  "cuda_runtime": "11.8",
+  "python": "3.10.13",
+  "platform": "Linux-5.15.0-186-generic-x86_64-with-glibc2.35",
+  "gpus": [
+    {
+      "index": 0,
+      "name": "NVIDIA A100-SXM4-80GB MIG 3g.40gb",
+      "total_memory_bytes": 42144366592,
+      "capability": [
+        8,
+        0
+      ]
+    }
+  ],
+  "checked_at_utc": "2026-10-14T21:23:50.855307+00:00"
+}

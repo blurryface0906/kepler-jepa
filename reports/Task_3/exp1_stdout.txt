@@ -1,0 +1,136 @@
+Experiment 1: encoder sequence T1, NO TRAINING, no predictor rollout
+Command: python -m experiments.exp1_encoder_tautology
+Configuration: {"seeds": [42, 43, 44, 45, 46], "encoders": {"M0-Linear": "linear", "M0-MLP": "mlp", "M0-Transformer": "transformer"}, "T_eval": [256, 4096], "L": 16, "C": 4, "d": 64, "T_total": 4112, "dt": 0.01, "mu": 1, "dtype": "float64 initialized directly", "device": "cpu", "batch_size": 512, "threads": 4, "training_steps": 0, "mode": "T1 encoder sequence", "PCA": "centered unwhitened two-component SVD", "methods": ["S1", "S2", "S3a_std", "S3b_std", "S3a_diff", "S3b_diff"]}
+Environment: {"python": "3.12.5", "platform": "Windows-11-10.0.26300-SP0", "numpy": "1.26.4", "scipy": "1.14.1", "scikit-learn": "1.7.2", "torch": "2.14.0+cpu", "matplotlib": "3.10.1", "tabulate": "0.9.0", "threadpoolctl": "3.6.0"}
+seed=42 encoder=M0-Linear: starting 30 orbits
+seed=42 encoder=M0-Linear: 10/30 orbits, 0.86s
+seed=42 encoder=M0-Linear: 20/30 orbits, 1.60s
+seed=42 encoder=M0-Linear: 30/30 orbits, 2.46s
+seed=42 encoder=M0-Linear: complete, weights unchanged
+seed=42 encoder=M0-MLP: starting 30 orbits
+seed=42 encoder=M0-MLP: 10/30 orbits, 0.99s
+seed=42 encoder=M0-MLP: 20/30 orbits, 2.21s
+seed=42 encoder=M0-MLP: 30/30 orbits, 3.22s
+seed=42 encoder=M0-MLP: complete, weights unchanged
+seed=42 encoder=M0-Transformer: starting 30 orbits
+seed=42 encoder=M0-Transformer: 10/30 orbits, 6.08s
+seed=42 encoder=M0-Transformer: 20/30 orbits, 11.80s
+seed=42 encoder=M0-Transformer: 30/30 orbits, 17.27s
+seed=42 encoder=M0-Transformer: complete, weights unchanged
+seed=43 encoder=M0-Linear: starting 30 orbits
+seed=43 encoder=M0-Linear: 10/30 orbits, 0.76s
+seed=43 encoder=M0-Linear: 20/30 orbits, 1.57s
+seed=43 encoder=M0-Linear: 30/30 orbits, 2.36s
+seed=43 encoder=M0-Linear: complete, weights unchanged
+seed=43 encoder=M0-MLP: starting 30 orbits
+seed=43 encoder=M0-MLP: 10/30 orbits, 0.89s
+seed=43 encoder=M0-MLP: 20/30 orbits, 1.79s
+seed=43 encoder=M0-MLP: 30/30 orbits, 2.70s
+seed=43 encoder=M0-MLP: complete, weights unchanged
+seed=43 encoder=M0-Transformer: starting 30 orbits
+seed=43 encoder=M0-Transformer: 10/30 orbits, 5.73s
+seed=43 encoder=M0-Transformer: 20/30 orbits, 11.59s
+seed=43 encoder=M0-Transformer: 30/30 orbits, 17.30s
+seed=43 encoder=M0-Transformer: complete, weights unchanged
+seed=44 encoder=M0-Linear: starting 30 orbits
+seed=44 encoder=M0-Linear: 10/30 orbits, 0.76s
+seed=44 encoder=M0-Linear: 20/30 orbits, 1.48s
+seed=44 encoder=M0-Linear: 30/30 orbits, 2.23s
+seed=44 encoder=M0-Linear: complete, weights unchanged
+seed=44 encoder=M0-MLP: starting 30 orbits
+seed=44 encoder=M0-MLP: 10/30 orbits, 0.91s
+seed=44 encoder=M0-MLP: 20/30 orbits, 1.83s
+seed=44 encoder=M0-MLP: 30/30 orbits, 2.94s
+seed=44 encoder=M0-MLP: complete, weights unchanged
+seed=44 encoder=M0-Transformer: starting 30 orbits
+seed=44 encoder=M0-Transformer: 10/30 orbits, 5.45s
+seed=44 encoder=M0-Transformer: 20/30 orbits, 10.54s
+seed=44 encoder=M0-Transformer: 30/30 orbits, 15.59s
+seed=44 encoder=M0-Transformer: complete, weights unchanged
+seed=45 encoder=M0-Linear: starting 30 orbits
+seed=45 encoder=M0-Linear: 10/30 orbits, 0.74s
+seed=45 encoder=M0-Linear: 20/30 orbits, 1.49s
+seed=45 encoder=M0-Linear: 30/30 orbits, 2.25s
+seed=45 encoder=M0-Linear: complete, weights unchanged
+seed=45 encoder=M0-MLP: starting 30 orbits
+seed=45 encoder=M0-MLP: 10/30 orbits, 0.86s
+seed=45 encoder=M0-MLP: 20/30 orbits, 1.75s
+seed=45 encoder=M0-MLP: 30/30 orbits, 2.64s
+seed=45 encoder=M0-MLP: complete, weights unchanged
+seed=45 encoder=M0-Transformer: starting 30 orbits
+seed=45 encoder=M0-Transformer: 10/30 orbits, 5.94s
+seed=45 encoder=M0-Transformer: 20/30 orbits, 11.61s
+seed=45 encoder=M0-Transformer: 30/30 orbits, 17.70s
+seed=45 encoder=M0-Transformer: complete, weights unchanged
+seed=46 encoder=M0-Linear: starting 30 orbits
+seed=46 encoder=M0-Linear: 10/30 orbits, 0.71s
+seed=46 encoder=M0-Linear: 20/30 orbits, 1.45s
+seed=46 encoder=M0-Linear: 30/30 orbits, 2.16s
+seed=46 encoder=M0-Linear: complete, weights unchanged
+seed=46 encoder=M0-MLP: starting 30 orbits
+seed=46 encoder=M0-MLP: 10/30 orbits, 0.89s
+seed=46 encoder=M0-MLP: 20/30 orbits, 1.77s
+seed=46 encoder=M0-MLP: 30/30 orbits, 2.65s
+seed=46 encoder=M0-MLP: complete, weights unchanged
+seed=46 encoder=M0-Transformer: starting 30 orbits
+seed=46 encoder=M0-Transformer: 10/30 orbits, 4.97s
+seed=46 encoder=M0-Transformer: 20/30 orbits, 10.33s
+seed=46 encoder=M0-Transformer: 30/30 orbits, 15.91s
+seed=46 encoder=M0-Transformer: complete, weights unchanged
+
+T_eval=256: mean +/- sample std across five seeds; no undefined seed removed
+| encoder        | method   | slope mean +/- std          | abs(slope+1.5) mean +/- std   | R2 mean +/- std          | SSE/SST mean +/- std        |   invalid /150 |
+|----------------|----------|-----------------------------|-------------------------------|--------------------------|-----------------------------|----------------|
+| M0-Linear      | S1       | 0 +/- 0                     | 1.5 +/- 0                     | nan +/- nan              | nan +/- nan                 |              0 |
+| M0-Linear      | S2       | -0.00113819756 +/- 1.33e-17 | 1.4988618 +/- 0               | 0.913875685 +/- 2.43e-15 | 0.0861243146 +/- 2.45e-15   |              0 |
+| M0-Linear      | S3a_std  | -1.42656547 +/- 2.82e-14    | 0.073434535 +/- 2.82e-14      | 0.999374008 +/- 1.39e-15 | 0.000625992136 +/- 1.42e-15 |              0 |
+| M0-Linear      | S3b_std  | -0.221759133 +/- 8.44e-17   | 1.27824087 +/- 0              | 0.748122514 +/- 3.47e-16 | 0.251877486 +/- 3.74e-16    |              0 |
+| M0-Linear      | S3a_diff | -1.5 +/- 1.99e-13           | 1.23367982e-13 +/- 1.52e-13   | 1 +/- 0                  | 3.48105647e-25 +/- 1.5e-25  |              0 |
+| M0-Linear      | S3b_diff | -1.5 +/- 1.32e-15           | 7.99360578e-16 +/- 1.05e-15   | 1 +/- 0                  | 1.25007682e-29 +/- 2.64e-30 |              0 |
+| M0-MLP         | S1       | 0 +/- 0                     | 1.5 +/- 0                     | nan +/- nan              | nan +/- nan                 |              0 |
+| M0-MLP         | S2       | -0.0010695918 +/- 7.3e-05   | 1.49893041 +/- 7.3e-05        | 0.931686449 +/- 0.0453   | 0.0683135512 +/- 0.0453     |              0 |
+| M0-MLP         | S3a_std  | -1.02806346 +/- 0.0306      | 0.471936538 +/- 0.0306        | 0.960752011 +/- 0.0166   | 0.0392479888 +/- 0.0166     |              0 |
+| M0-MLP         | S3b_std  | -0.217487084 +/- 0.00942    | 1.28251292 +/- 0.00942        | 0.800109253 +/- 0.0232   | 0.199890747 +/- 0.0232      |              0 |
+| M0-MLP         | S3a_diff | -1.09540006 +/- 0.0885      | 0.404599944 +/- 0.0885        | 0.968224458 +/- 0.0156   | 0.0317755422 +/- 0.0156     |              0 |
+| M0-MLP         | S3b_diff | -1.09604501 +/- 0.032       | 0.403954994 +/- 0.032         | 0.964904458 +/- 0.0146   | 0.035095542 +/- 0.0146      |              0 |
+| M0-Transformer | S1       | 0 +/- 0                     | 1.5 +/- 0                     | nan +/- nan              | nan +/- nan                 |              0 |
+| M0-Transformer | S2       | -0.00113309113 +/- 1.07e-05 | 1.49886691 +/- 1.07e-05       | 0.911757741 +/- 0.00556  | 0.0882422591 +/- 0.00556    |              0 |
+| M0-Transformer | S3a_std  | -1.39824505 +/- 0.0398      | 0.101754945 +/- 0.0398        | 0.988956183 +/- 0.0071   | 0.0110438173 +/- 0.0071     |              0 |
+| M0-Transformer | S3b_std  | -0.222822291 +/- 0.00547    | 1.27717771 +/- 0.00547        | 0.736697743 +/- 0.0283   | 0.263302257 +/- 0.0283      |              0 |
+| M0-Transformer | S3a_diff | -1.47097059 +/- 0.0444      | 0.0486389931 +/- 0.00828      | 0.991057207 +/- 0.0063   | 0.00894279342 +/- 0.0063    |              0 |
+| M0-Transformer | S3b_diff | -1.4684551 +/- 0.0362       | 0.0372316082 +/- 0.0287       | 0.975587067 +/- 0.00601  | 0.0244129334 +/- 0.00601    |              0 |
+
+T_eval=4096: mean +/- sample std across five seeds; no undefined seed removed
+| encoder        | method   | slope mean +/- std       | abs(slope+1.5) mean +/- std   | R2 mean +/- std          | SSE/SST mean +/- std        |   invalid /150 |
+|----------------|----------|--------------------------|-------------------------------|--------------------------|-----------------------------|----------------|
+| M0-Linear      | S1       | -1.50408368 +/- 0        | 0.0040836758 +/- 0            | 0.988577386 +/- 0        | 0.0114226144 +/- 0          |              0 |
+| M0-Linear      | S2       | -1.49922798 +/- 1.11e-16 | 0.000772020986 +/- 9.93e-17   | 0.999975994 +/- 1.24e-16 | 2.40056176e-05 +/- 4.5e-19  |              0 |
+| M0-Linear      | S3a_std  | -1.49999793 +/- 3.33e-15 | 2.06555004e-06 +/- 3.33e-15   | 1 +/- 0                  | 8.61037806e-11 +/- 6.45e-20 |              0 |
+| M0-Linear      | S3b_std  | -1.49963118 +/- 2.94e-16 | 0.000368817304 +/- 2.9e-16    | 0.999998656 +/- 0        | 1.34402512e-06 +/- 2.3e-19  |              0 |
+| M0-Linear      | S3a_diff | -1.5 +/- 8.32e-14        | 8.97948382e-14 +/- 6.9e-14    | 1 +/- 0                  | 6.51619526e-26 +/- 2.5e-26  |              0 |
+| M0-Linear      | S3b_diff | -1.5 +/- 2.22e-16        | 1.77635684e-16 +/- 9.93e-17   | 1 +/- 0                  | 2.80629774e-31 +/- 6.71e-32 |              0 |
+| M0-MLP         | S1       | -1.50408368 +/- 0        | 0.0040836758 +/- 0            | 0.988577386 +/- 0        | 0.0114226144 +/- 0          |              0 |
+| M0-MLP         | S2       | -1.49865812 +/- 0.000309 | 0.00134187527 +/- 0.000309    | 0.999974429 +/- 3.03e-06 | 2.55710286e-05 +/- 3.03e-06 |              0 |
+| M0-MLP         | S3a_std  | -1.50998801 +/- 0.0489   | 0.0397196713 +/- 0.0233       | 0.999756331 +/- 0.000146 | 0.000243668904 +/- 0.000146 |              0 |
+| M0-MLP         | S3b_std  | -1.49939868 +/- 0.000514 | 0.000601315604 +/- 0.000514   | 0.999993393 +/- 2.66e-06 | 6.60660814e-06 +/- 2.66e-06 |              0 |
+| M0-MLP         | S3a_diff | -1.53550618 +/- 0.181    | 0.149111397 +/- 0.0807        | 0.998655954 +/- 0.000933 | 0.00134404598 +/- 0.000933  |              0 |
+| M0-MLP         | S3b_diff | -1.49972444 +/- 0.000306 | 0.000277423637 +/- 0.000303   | 0.999987885 +/- 1.91e-05 | 1.21149246e-05 +/- 1.91e-05 |              0 |
+| M0-Transformer | S1       | -1.50408368 +/- 0        | 0.0040836758 +/- 0            | 0.988577386 +/- 0        | 0.0114226144 +/- 0          |              0 |
+| M0-Transformer | S2       | -1.49919449 +/- 0.000164 | 0.000805511196 +/- 0.000164   | 0.999976282 +/- 2.17e-06 | 2.37176124e-05 +/- 2.17e-06 |              0 |
+| M0-Transformer | S3a_std  | -1.49941675 +/- 0.00162  | 0.0014162833 +/- 0.00073      | 0.999996803 +/- 2.13e-06 | 3.19679082e-06 +/- 2.13e-06 |              0 |
+| M0-Transformer | S3b_std  | -1.49953075 +/- 0.000546 | 0.00061852271 +/- 0.000308    | 0.999998173 +/- 7.31e-07 | 1.82738386e-06 +/- 7.31e-07 |              0 |
+| M0-Transformer | S3a_diff | -1.49818344 +/- 0.00533  | 0.00434697327 +/- 0.00298     | 0.999982219 +/- 1.28e-05 | 1.77805836e-05 +/- 1.28e-05 |              0 |
+| M0-Transformer | S3b_diff | -1.49976903 +/- 0.000429 | 0.000426099818 +/- 0.000155   | 0.999998802 +/- 1.89e-07 | 1.19814108e-06 +/- 1.89e-07 |              0 |
+
+ACCEPTANCE
+| criterion                                                              | status   |
+|------------------------------------------------------------------------|----------|
+| H1 Linear S3a_diff, T=256                                              | PASS     |
+| H1 Linear S3b_diff, T=256                                              | PASS     |
+| H1 Linear S3a_diff, T=4096                                             | PASS     |
+| H1 Linear S3b_diff, T=4096                                             | PASS     |
+| H1 M0-MLP, T=4096, Task3 mean/worst phase criterion                    | PASS     |
+| H1 M0-Transformer, T=4096, Task3 mean/worst phase criterion            | PASS     |
+| H2 Linear long FFT quantization and >=15-decade continuous improvement | PASS     |
+Elapsed seconds: 111.37
+Overall: PASS (exit 0)

@@ -1,0 +1,64 @@
+evaluate seed=42 model=M0_Koopman split=test_id_ellip
+evaluate seed=42 model=M0_Koopman split=test_ood_ecc
+evaluate seed=42 model=M0_Koopman split=test_iso_energy
+evaluate seed=42 model=M0_Koopman split=test_ellip_peri
+evaluate seed=42 model=M0_Koopman split=test_ellip_apo
+evaluate seed=42 model=M1_circ split=test_id_ellip
+evaluate seed=42 model=M1_circ split=test_ood_ecc
+evaluate seed=42 model=M1_circ split=test_iso_energy
+evaluate seed=42 model=M1_circ split=test_ellip_peri
+evaluate seed=42 model=M1_circ split=test_ellip_apo
+evaluate seed=42 model=M2_circ split=test_id_ellip
+evaluate seed=42 model=M2_circ split=test_ood_ecc
+evaluate seed=42 model=M2_circ split=test_iso_energy
+evaluate seed=42 model=M2_circ split=test_ellip_peri
+evaluate seed=42 model=M2_circ split=test_ellip_apo
+evaluate seed=42 model=M3_circ split=test_id_ellip
+evaluate seed=42 model=M3_circ split=test_ood_ecc
+evaluate seed=42 model=M3_circ split=test_iso_energy
+evaluate seed=42 model=M3_circ split=test_ellip_peri
+evaluate seed=42 model=M3_circ split=test_ellip_apo
+seed=42 model=M1_Ellip_Short step=1/3 total=9.20948 inv=0
+seed=42 model=M1_Ellip_Short step=2/3 total=13.0481 inv=0
+seed=42 model=M1_Ellip_Short step=3/3 total=16.6508 inv=0
+evaluate seed=42 model=M1_Ellip_Short split=test_id_ellip
+evaluate seed=42 model=M1_Ellip_Short split=test_ood_ecc
+evaluate seed=42 model=M1_Ellip_Short split=test_iso_energy
+evaluate seed=42 model=M1_Ellip_Short split=test_ellip_peri
+evaluate seed=42 model=M1_Ellip_Short split=test_ellip_apo
+seed=42 model=M1_Ellip_Inv step=1/3 total=5.57177 inv=0.170985
+seed=42 model=M1_Ellip_Inv step=2/3 total=11.5042 inv=0.170509
+seed=42 model=M1_Ellip_Inv step=3/3 total=16.0692 inv=0.121516
+evaluate seed=42 model=M1_Ellip_Inv split=test_id_ellip
+evaluate seed=42 model=M1_Ellip_Inv split=test_ood_ecc
+evaluate seed=42 model=M1_Ellip_Inv split=test_iso_energy
+evaluate seed=42 model=M1_Ellip_Inv split=test_ellip_peri
+evaluate seed=42 model=M1_Ellip_Inv split=test_ellip_apo
+seed=42 model=M2_Ellip_Inv step=1/3 total=5.53613 inv=0.156283
+seed=42 model=M2_Ellip_Inv step=2/3 total=11.6529 inv=0.166322
+seed=42 model=M2_Ellip_Inv step=3/3 total=16.4921 inv=0.100468
+evaluate seed=42 model=M2_Ellip_Inv split=test_id_ellip
+evaluate seed=42 model=M2_Ellip_Inv split=test_ood_ecc
+evaluate seed=42 model=M2_Ellip_Inv split=test_iso_energy
+evaluate seed=42 model=M2_Ellip_Inv split=test_ellip_peri
+evaluate seed=42 model=M2_Ellip_Inv split=test_ellip_apo
+seed=42 model=M3_Ellip_SIGReg step=1/3 total=1547.24 inv=0.188944
+seed=42 model=M3_Ellip_SIGReg step=2/3 total=1780.22 inv=0.113835
+seed=42 model=M3_Ellip_SIGReg step=3/3 total=2274.81 inv=0.101754
+evaluate seed=42 model=M3_Ellip_SIGReg split=test_id_ellip
+evaluate seed=42 model=M3_Ellip_SIGReg split=test_ood_ecc
+evaluate seed=42 model=M3_Ellip_SIGReg split=test_iso_energy
+evaluate seed=42 model=M3_Ellip_SIGReg split=test_ellip_peri
+evaluate seed=42 model=M3_Ellip_SIGReg split=test_ellip_apo
+FAIL: All20 CUDA trainings:2000steps B256
+FAIL: H3 M0_Koopman: one phase method passes all5 seeds
+FAIL: H3 M0_Koopman: DMD degradation
+FAIL: H3 M1_Ellip_Inv: one phase method passes all5 seeds
+FAIL: H3 M1_Ellip_Inv: DMD degradation
+FAIL: Zero-shot M1_circ mean phase gap>.35
+FAIL: M1_Ellip_Inv phase gap<.12 all5 and at least3x mean reduction
+FAIL: M0_Koopman T3 fails recovery
+FAIL: M1_Ellip_Inv T3 mean/worst law thresholds
+FAIL: M2_Ellip_Inv T3 mean/worst law thresholds
+FAIL: M1Inv norm OOS loga R2<.75
+FAIL: M1Inv omega OOS energy R2>.94

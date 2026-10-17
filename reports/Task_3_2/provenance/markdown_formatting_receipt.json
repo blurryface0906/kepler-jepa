@@ -1,0 +1,6 @@
+{
+  "purpose": "Markdown table-header correction only; no changed numerical measurements",
+  "before_sha256": "b2c39d8e198befbc3d186210adb7ec8d82344f4fc81652decb240ea5cbdbf641",
+  "after_sha256": "6a2b2ce68dc695446a326e052f92ce695d649780079bddbd0481cb0b8bcf33bb",
+  "numeric_characters_unchanged": true
+}

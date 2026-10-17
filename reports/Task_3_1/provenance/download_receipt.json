@@ -1,0 +1,12 @@
+{
+  "archive": "task31_gpu_results.zip",
+  "remote_path": "persistent_volume/kepler-jepa-task31-20261015/task31_gpu_results.zip",
+  "local_download": "C:\\Users\\amust\\Downloads\\task31_gpu_results.zip",
+  "bytes": 15183926,
+  "sha256": "17f1c7c9fb1228f85c8a49e2d849d4cd371502a08a6a1dfd1fcf5510c1d9b23b",
+  "transfer": "User downloaded through browser; hash verified before extraction",
+  "verified_at_utc": "2026-10-15T10:23:23.5901391Z",
+  "manifest_file_count": 24,
+  "source_files_verified": 10,
+  "checkpoints_verified": 15
+}

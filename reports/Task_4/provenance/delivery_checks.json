@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "protected_reports": 128,
+  "working_local_links": 12,
+  "markdown_tables": 15,
+  "figure_pixels": [
+    5100,
+    3300
+  ],
+  "figure_dpi": [
+    299.9994,
+    299.9994
+  ],
+  "unit_tests_local": 156,
+  "unit_tests_idh": 156,
+  "scientific_passed": 11,
+  "scientific_total": 12
+}

@@ -1,0 +1,31 @@
+test_builder_invalid_split_and_seed (tests.test_task1.BuilderTests.test_builder_invalid_split_and_seed) ... ok
+test_builders_are_deterministic_and_seeds_affect_phases (tests.test_task1.BuilderTests.test_builders_are_deterministic_and_seeds_affect_phases) ... ok
+test_circular_grid_shapes_and_disjoint_orbits (tests.test_task1.BuilderTests.test_circular_grid_shapes_and_disjoint_orbits) ... ok
+test_counterfactual_metadata_follows_initial_energy_and_momentum (tests.test_task1.BuilderTests.test_counterfactual_metadata_follows_initial_energy_and_momentum) ... ok
+test_even_context_is_centered_at_continuous_apsis (tests.test_task1.BuilderTests.test_even_context_is_centered_at_continuous_apsis) ... ok
+test_analytical_invariants_match_orbit_parameters (tests.test_task1.SimulatorTests.test_analytical_invariants_match_orbit_parameters) ... ok
+test_analytical_velocity_is_position_derivative (tests.test_task1.SimulatorTests.test_analytical_velocity_is_position_derivative) ... ok
+test_circles_match_closed_form_positions_and_velocities (tests.test_task1.SimulatorTests.test_circles_match_closed_form_positions_and_velocities) ... ok
+test_elliptical_apsides_and_rotation (tests.test_task1.SimulatorTests.test_elliptical_apsides_and_rotation) ... ok
+test_near_parabolic_kepler_equation_residual (tests.test_task1.SimulatorTests.test_near_parabolic_kepler_equation_residual) ... ok
+test_simulator_rejects_invalid_inputs (tests.test_task1.SimulatorTests.test_simulator_rejects_invalid_inputs) ... ok
+test_verlet_includes_initial_state_and_is_second_order (tests.test_task1.SimulatorTests.test_verlet_includes_initial_state_and_is_second_order) ... ok
+test_zero_invariant_has_undefined_relative_drift (tests.test_task1.SimulatorTests.test_zero_invariant_has_undefined_relative_drift) ... ok
+test_discrete_fft_returns_known_bin_and_ignores_translation (tests.test_task1.SpectralTests.test_discrete_fft_returns_known_bin_and_ignores_translation) ... ok
+test_estimators_reject_invalid_and_degenerate_trajectories (tests.test_task1.SpectralTests.test_estimators_reject_invalid_and_degenerate_trajectories) ... ok
+test_hann_interpolation_refines_an_off_bin_peak (tests.test_task1.SpectralTests.test_hann_interpolation_refines_an_off_bin_peak) ... ok
+test_higher_dimensional_estimators_use_the_declared_projection (tests.test_task1.SpectralTests.test_higher_dimensional_estimators_use_the_declared_projection) ... ok
+test_kepler_regression_and_residual_metrics (tests.test_task1.SpectralTests.test_kepler_regression_and_residual_metrics) ... ok
+test_phase_frequency_is_independent_of_rotation_direction (tests.test_task1.SpectralTests.test_phase_frequency_is_independent_of_rotation_direction) ... ok
+test_projection_preserves_2d_axes_and_rank_two_gram_matrix (tests.test_task1.SpectralTests.test_projection_preserves_2d_axes_and_rank_two_gram_matrix) ... ok
+test_raw_short_circle_recovers_frequency_but_centering_biases_it (tests.test_task1.SpectralTests.test_raw_short_circle_recovers_frequency_but_centering_biases_it) ... ok
+test_regression_constant_frequency_and_invalid_inputs (tests.test_task1.SpectralTests.test_regression_constant_frequency_and_invalid_inputs) ... ok
+test_all_windows_include_final_target_and_do_not_cross_orbits (tests.test_task1.WindowTests.test_all_windows_include_final_target_and_do_not_cross_orbits) ... ok
+test_default_dataloader_collates_windows_and_metadata (tests.test_task1.WindowTests.test_default_dataloader_collates_windows_and_metadata) ... ok
+test_returned_tensors_own_memory_and_metadata_is_copied (tests.test_task1.WindowTests.test_returned_tensors_own_memory_and_metadata_is_copied) ... ok
+test_window_rejects_invalid_inputs_and_indices (tests.test_task1.WindowTests.test_window_rejects_invalid_inputs_and_indices) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.863s
+
+OK

@@ -1,0 +1,9 @@
+{
+  "change": "Panel(a): consistent model colors across estimators; marker shapes unchanged. No numerical changes.",
+  "original_figure_sha256": "3489f65b62470121ab7bbb6a43d1d4637dd67eaf277271f424c2657d6c5320b0",
+  "final_figure_sha256": "6eb119684cbe6e5fbd4af4db664be59c285fdebaac29052af58df13ad276d88f",
+  "numerical_json_sha256": "215d890b59761c0ad2ea8e31a1bd677db587db51b4b0d2b76833641003f7f3b5",
+  "final_reporting_source_sha256": "81ef7011939d679d48477e8295f508686fecc584890d75f520ce974997b89365",
+  "presentation_renderer_sha256": "3aef1ac9ea7e40071419e528db75c91cc8b0b29c1dc8c4f7deac07806287e4bb",
+  "frozen_GPU_reporting_source_sha256": "81ef7011939d679d48477e8295f508686fecc584890d75f520ce974997b89365"
+}

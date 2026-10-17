@@ -1,0 +1,10 @@
+{
+  "archive": "task32_gpu_results.zip",
+  "remote_path": "persistent_volume/kepler-jepa-task32-20261015/task32_gpu_results.zip",
+  "local_download": "C:\\Users\\amust\\Downloads\\task32_gpu_results.zip",
+  "bytes": 18622654,
+  "sha256": "cb12a3bc1c8950736746d8f8d7422d8bea70c59e3cc381034d470f4b9248ae9f",
+  "transfer": "JupyterLab browser Download; local archive SHA256 matched server before extraction",
+  "verified_at_utc": "2026-10-15T14:16:59.3527937Z",
+  "manifest_file_count": 28
+}

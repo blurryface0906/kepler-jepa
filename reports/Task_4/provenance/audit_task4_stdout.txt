@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "previous_reports_unchanged": 128,
+  "artifact_hashes": 48,
+  "source_hashes": 16,
+  "checkpoint_count": 20,
+  "frequency_records": 1120,
+  "probe_records": 2880,
+  "independent_CPU_rollout_frequency_records": 24,
+  "scientific_passed": 11,
+  "scientific_total": 12
+}
